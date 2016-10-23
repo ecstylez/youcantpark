@@ -1,0 +1,124 @@
+.expose-them-container{
+	background-color : #ebebeb;
+
+	.what-to-do{
+		background-color : #FFF;
+		margin-bottom    :10px;
+
+		.icon{
+			padding         : 30px;
+			text-align      : center;
+			height          : 170px;
+			background-size : cover;
+
+			&.spot-them{
+				background-image : url(../images/expose-them-spot.png);
+			}
+
+			&.icon.capture-them{
+				background-image : url(../images/expose-them-capture.png);
+			}
+
+			&.icon.card-them{
+				background-image : url(../images/expose-them-card.png);
+			}
+
+			&.icon.tag-them{
+				background-image : url(../images/expose-them-tag.png);
+			}
+		}
+
+		.description-container{
+			background-color : #0ab39a;
+			padding          : 15px;
+			color            : #FFF;
+
+			.description-header{
+				font-size      : 17px;
+				font-weight    : bold;
+				text-transform : uppercase;
+				text-align     : center;
+				padding        : 10px;
+			}
+
+			.description-body{
+				font-size : 12px;
+				padding   : 13px 0;
+			}
+		}
+
+
+	}
+}
+
+.get-them-container{
+	background-color : #0ab39a;
+	color            : #FFF;
+	overflow         : hidden;
+
+	.section-header{
+		h4{
+			color : rgba(255,255,255,0.6);
+		}
+
+		&:after{
+			border-bottom :3px solid rgba(255,255,255,0.6);
+			margin-left   : 0;
+		}
+	}
+
+	.homepage-business-cards{
+		background-image : url(../images/homepage-getcards.png);
+		width            : 482px;
+		height           : 379px;
+		margin-bottom    : -120px;
+	}
+
+	article{
+		font-size : 18px;
+	}
+
+	.btn-submit{
+		background-color : rgba(0,0,0,0.3);
+		margin-top       : 30px;
+	}
+}
+
+.contact-us-container{
+	background-color : #343638;
+	color            :#FFF;
+	
+	.section-header{
+		h4{
+			color : rgba(255,255,255,0.6);
+		}
+
+		&:after{
+			border-bottom :3px solid rgba(255,255,255,0.6);
+			margin-left   : 0;
+		}
+	}
+
+	article{
+		font-size : 18px;
+	}
+
+	form{
+		margin-top :20px;
+
+		label{
+			font-weight : normal;
+		}
+
+		input[type="text"], textarea{
+			border-radius         : 0;
+			-webkit-border-radius : 0;
+			-moz-border-radius    : 0;
+			border                : 0;
+		}
+
+		textarea{
+			height : 100px;
+		}
+	}
+}

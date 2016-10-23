@@ -1,0 +1,19 @@
+.breadcrumb{
+	background    : none;
+	padding-top   : 20px;
+	margin-bottom : 0;
+
+	li{
+		text-transform : uppercase;
+
+		&.active{
+			a{
+				color : $teal;
+			}
+		}
+
+		a{
+			color : lighten(black,60%);
+		}
+	}
+}

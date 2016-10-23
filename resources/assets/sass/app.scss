@@ -1,0 +1,68 @@
+// modules and variable
+@import 'variables';
+
+// third-party
+@import 'vendors';
+
+// fonts
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+// partials
+@import 'layout/general';
+@import 'layout/header';
+@import 'layout/breadcrumbs';
+@import 'layout/section-header';
+@import 'layout/footer';
+@import 'layout/homepage';
+
+
+
+
+.section-text{
+	font-size: 14px;
+	line-height: 24px;
+}
+
+
+/* break points */
+@mixin breakpoint($point){
+
+}
+
+
+/**
+ *
+ * 
+ */
+
+@media only screen and (max-width : 1200px) {
+
+}
+@media only screen and (max-width : 991px) {
+	.navbar .navbar-brand .text-brand{
+		display: none;
+	}
+	.navbar .navbar-brand .logo-brand{
+		display: block;
+	}
+
+}
+@media only screen and (max-width : 979px) {
+	.get-them-container .homepage-business-cards{
+		margin-left: -100px;
+	}
+}
+
+@media only screen and (max-width : 767px) {
+	.what-to-do .icon{
+		background-position-y: 40%;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}
