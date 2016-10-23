@@ -87,7 +87,7 @@ class PagesController extends Controller
 			'page_title'    => 'Contact Us',
 			'page_subtitle' => 'That feeling when you saw a hard parked car',
 		);
-		return view('interior-pages.default', $data);
+		return view('interior-pages.contact-us', $data);
 	}
 
     /**
